@@ -1,0 +1,8 @@
+#Description of param "expression"
+<expression>;<(0-9)+> E4 <(0-6)*> E7 <(0-2)>
+
+#Description of param "traces_number"
+<traces_number>;20
+
+#Description of param "traces_len"
+<traces_len>;20

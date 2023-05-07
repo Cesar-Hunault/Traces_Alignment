@@ -1,0 +1,38 @@
+## Scores for insertions
+# Score for insertion of a tick ('.')
+ins_point 1
+
+# Score for insertion of a dash ('-')
+ins_dash 2
+
+# Score for insertion of an event ('Ei' with i in [1-9])
+ins_event 3
+
+
+## Scores for deletions
+# Score for deletion of a tick ('.')
+del_point 1
+
+# Score for deletion of a dash ('-')
+del_dash 2
+
+# Score for deletion of an event ('Ei' with i in [1-9])
+del_event 3
+
+## Scores for substitutions
+# Score for substitution of an event 'Ei' with an event 'Ej' (with i!=j and i,j in [1-9])
+subst_events 4
+
+# Score for substitution of an event with a tick ('.')
+subst_event_tick 2
+
+# Score for substitution of an event with a dash ('-')
+subst_event_dash 3
+
+# Score for substitution of an tick ('.') with a dash ('-')
+subst_dash_tick 1
+
+## Multiple sequence alignment threshold 
+# This threshold is an int, the MSA stops when the
+# difference between D and D_prec is lower than 'threshold_msa'
+threshold_msa 1
